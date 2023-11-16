@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-text">
+                <h1>Brooklyn Public Library</h1>
+            </div>
+            <div class="header-nav">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#About"><h3>About</h3></a></li>
+                        <li><a href="#Favorites"><h3>Favourites</h3></a></li>
+                        <li><a href="#Coffee"><h3>Coffee shop</h3></a></li>
+                        <li><a href="#Contacts"><h3>Contacts</h3></a></li>
+                        <li><a href="#Library"><h3>Library Cards</h3></a></li>
+                    </ul>
+                </nav>
+                <div class="icon-profile">
+                    <img src="img/icon_profile.svg" alt="icon-profile">
+                </div>
+                <button class="header-burger">
+                    <span></span><span></span><span></span>
+                </button>
+                    
+
+            </div>
+
+        </header>
+        <main class="main">
+            <section class="section-welcome">
+                <img src="img/Welcome.jpg" alt="welcome-picture">
+            </section>
+            <div class="overlay">
+                <!--<img src="img/overlay.jpg" alt="overlay-picture">-->
+            </div>
+            <div class="welcome-text">            
+            <div class="overlay-text">
+            <pre>
+           WELCOME
+            TO THE BROOKLYN
+            LIBRARY
+            </pre>
+            </div>
+            </div>
+
+            <section id="About" class="About">
+                <div class="About-text">
+                    <div class="About-text1">
+                        <div class="About-text1-words">
+                            <h2>About</h2>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="About-text2">
+                        <div class="About-text2-words">
+                            <h3>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide1">
+                                    <div class="slide-content">
+                                        <img src="img/image1.jpg" class="images1">
+                                    </div>
+                                    <div class="slide-content">
+                                        <img src="img/image2.jpg" class="image2">
+                                    </div>
+                                    <div class="slide-content">
+                                        <img src="img/image3.jpg" class="image3">
+                                    </div>
+                                    <div class="slide-content">
+                                        <img src="img/image4.jpg" class="image4">
+                                    </div>
+                                    <div class="slide-content">
+                                        <img src="img/image5.jpg" class="image5">
+                                    </div>
+                                </div>					
+                            </div>				
+                        </div>				
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                    </div>
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                    </div>
+                    
+                    <div id="controls_second">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+                    <div id="bullets_second">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>                        
+                    </div>
+
+                </div>
+            
+            </section>
+            <section id="Favorites" class="Favorites">
+                <div class="Favorites-text">
+                    <div class="Favorites-text1">
+                        <div class="Favorites-text1-words">
+                            <h2>Favorites</h2>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="Favorites-text2">
+                        <div class="Favorites-text2-words">
+                            <h2>Pick favorites of season</h2>
+                        </div>
+                    </div>
+                    <div class="Favorites-text3">
+                        <div class="Favorites-text3-left">
+                            <div class="Favorites-text3-words">
+                                <div class="Winter">
+                                    <div><img src="img/Group.svg" alt="radiobutton">
+                                    </div>
+                                    <div class="Winter-text">
+                                        <h4>Winter</h4>
+                                    </div>
+                                </div>
+                                <div class="Spring">
+                                    <div><img src="img/Ellipse2.svg" alt="radiobutton">
+                                    </div>
+                                    <div class="Spring-text">
+                                        <h4>Spring</h4>
+                                    </div>
+                                </div>
+                                <div class="Summer">
+                                    <div><img src="img/Ellipse2.svg" alt="radiobutton">
+                                    </div>
+                                    <div class="Summer-text">
+                                        <h4>Summer</h4>
+                                    </div>
+                                </div>
+                                <div class="Autumn">
+                                    <div><img src="img/Ellipse2.svg" alt="radiobutton">
+                                    </div>
+                                    <div class="Autumn-text">
+                                        <h4>Autumn</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Favorites-text3-right">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="Favorites-pictures">
+                    <div class="Favorites-pictures-line1">
+                        <div class="Favorites-picture1">
+                            <div class="Favorites-picture1-text">
+                                <div class="Favorites-picture1-text-text1">
+                                    <h4>Staff Picks</h4>
+                                </div>
+                                <div>
+                                    <hr>
+                                </div>
+                                <div class="Favorites-picture1-text-text2">
+                                    <h4>THE BOOK EATERS By Sanyi Dean</h4>
+                                </div>
+                                <div class="Favorites-picture1-text-text3">
+                                    <h4>An Unusual Sci-Fi Story About A Book Eater Woman Who Tries Desperately To Save Her
+                                        Dangerous Mind-Eater Son From Tradition And Certain Death. Complete With Dysfunctional
+                                        Family Values, Light Sapphic Romance, And A Strong, Complex Protagonist. Not For The Faint 
+                                        Of Heart.
+                                    </h4>
+                                </div>
+                                <form>
+                                    <button class="ButtonBuy">Buy</button>
+                                </form>
+                                <div class="Book1">
+                                    <img src="img/book.jpg" alt="picture-book1">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="Favorites-picture2">
+                            <div class="Favorites-picture2-text">
+                                <div class="Favorites-picture2-text-text1">
+                                    <h4>Staff Picks</h4>
+                                </div>
+                                <div>
+                                    <hr>
+                                </div>
+                                <div class="Favorites-picture2-text-text2">
+                                    <h4>CACKLE By Rachel Harrison</h4>
+                                </div>
+                                <div class="Favorites-picture2-text-text3">
+                                    <h4>Are Your Halloween Movies Of Choice The Witches Of Eastwick And Practical
+                                        Magic? Look No Further Than Here - Where A Woman Recovering From A Breakup
+                                        Moves To A Quaint Town In Upstate New York And Befriends A Beautiful Witch.
+                                    </h4>
+                                </div>
+                                <form>
+                                    <button class="ButtonBuy">Buy</button>
+                                </form>
+                                <div class="Book2">
+                                    <img src="img/book2.jpg" alt="picture-book2">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="Favorites-pictures-line2">
+                        <div class="Favorites-picture3">
+                            <div class="Favorites-picture3-text">
+                                <div class="Favorites-picture3-text-text1">
+                                    <h4>Staff Picks</h4>
+                                </div>
+                                <div>
+                                    <hr>
+                                </div>
+                                <div class="Favorites-picture3-text-text2">
+                                    <h4>DANTE: POET OF THE SECULAR WORLD By Erich Auerbach</h4>
+                                </div>
+                                <div class="Favorites-picture3-text-text3">
+                                    <h4>Auerbach's Engaging Book Places The 'Comedy' Within The Tradition Of Epic, Tradegy, And Philosophy
+                                        In General, Arguing For Dante's Uniqueness As One Who Raised The Individual And His Drama Of Soul Into
+                                        Something Of Divine Significance - An Inspired Introduction To Dante's Main Themes.
+                                    </h4>
+                                </div>
+                                <form>
+                                    <button class="ButtonBuy">Buy</button>
+                                </form>
+                                <div class="Book3">
+                                    <img src="img/book3.jpg" alt="picture-book3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Favorites-picture4">
+                            <div class="Favorites-picture4-text">
+                                <div class="Favorites-picture4-text-text1">
+                                    <h4>Staff Picks</h4>
+                                </div>
+                                <div>
+                                    <hr>
+                                </div>
+                                <div class="Favorites-picture4-text-text2">
+                                    <h4>THE LAST QUEEN By Clive Irving</h4>
+                                </div>
+                                <div class="Favorites-picture4-text-text3">
+                                    <h4>A Timely And Revelatory New Biography Of Queen Elizabeth (And Her Family) Exploring
+                                        How The Windsors Have Evolved And Thrived As The Modern World Has Changed Around Them.
+                                    </h4>
+                                </div>
+                                <form>
+                                    <button disabled class="ButtonOwn">Own</button>
+                                </form>
+                                <div class="Book4">
+                                    <img src="img/book4.jpg" alt="picture-book4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Coffee" class="CoffeeShop">
+                <div class="CoffeeShop-text">
+                    <div class="CoffeeShop-text-text1">
+                        <h2>Coffee Shop</h2>
+                    </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="CoffeeShop-text-text2">
+<h3>
+    In our library, we have a cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
+    You can get a favorite book and read in the coffee shop. Our barista cooks you best coffee, and you can try desserts
+    from bakery.
+</h3>
+                    </div>
+                </div>
+                <div class="CoffeeShop-frame">
+                    <div class="CoffeeShop-frame-left">
+                        <div class="left-inner">
+                            <div class="left-inner-text1">
+                                <h2>Coffee & Tea</h2>
+                            </div>
+                            <div class="left-inner-text2">
+                                <div class="left-line1">
+                                    <div class="left-line1-text">
+                                        <h3>Cold Brew Coffee</h3>
+                                    </div>
+                                    <div class="left-line1-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$3</h3>
+                                    </div>
+                                </div>
+                                <div class="left-line2">
+                                    <div class="left-line2-text">
+                                        <h3>French Press Pot</h3>
+                                    </div>
+                                    <div class="left-line2-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$5</h3>
+                                    </div>
+                                </div>
+                                <div class="left-line3">
+                                    <div class="left-line3-text">
+                                        <h3>Espresso</h3>
+                                    </div>
+                                    <div class="left-line3-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$2</h3>
+                                    </div>
+                                </div>
+                                <div class="left-line4">
+                                    <div class="left-line4-text">
+                                        <h3>Cappuccino</h3>
+                                    </div>
+                                    <div class="left-line4-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$4</h3>
+                                    </div>
+                                </div>
+                                <div class="left-line5">
+                                    <div class="left-line5-text">
+                                        <h3>Hot Tea</h3>
+                                    </div>
+                                    <div class="left-line5-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$2</h3>
+                                    </div>
+                                </div>
+                                <div class="left-line6">
+                                    <div class="left-line6-text">
+                                        <h3>Cold Tea</h3>
+                                    </div>
+                                    <div class="left-line6-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price">
+                                        <h3>$2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CoffeeShop-frame-right">
+                        <div class="right-inner">
+                            <div class="right-inner-text1">
+                                <h2>Desserts & Cakes</h2>
+                            </div>
+                            <div class="right-inner-text2">
+                                <div class="right-line1">
+                                    <div class="right-line1-text">
+                                        <h3>Forest Gateau</h3>
+                                    </div>
+                                    <div class="right-line1-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$16</h3>
+                                    </div>
+                                </div>
+                                <div class="right-line2">
+                                    <div class="right-line2-text">
+                                        <h3>Blue Moon</h3>
+                                    </div>
+                                    <div class="right-line2-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$16</h3>
+                                    </div>
+                                </div>
+                                <div class="right-line3">
+                                    <div class="right-line3-text">
+                                        <h3>Truffle Cake</h3>
+                                    </div>
+                                    <div class="right-line3-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$15</h3>
+                                    </div>
+                                </div>
+                                <div class="right-line4">
+                                    <div class="right-line4-text">
+                                        <h3>Chocolate Cake</h3>
+                                    </div>
+                                    <div class="right-line4-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$18</h3>
+                                    </div>
+                                </div>
+                                <div class="right-line5">
+                                    <div class="right-line5-text">
+                                        <h3>Poet's Dream Cake</h3>
+                                    </div>
+                                    <div class="right-line5-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$16</h3>
+                                    </div>
+                                </div>
+                                <div class="right-line6">
+                                    <div class="right-line6-text">
+                                        <h3>Pineapple Cake</h3>
+                                    </div>
+                                    <div class="right-line6-line">
+                                        <hr>
+                                    </div>
+                                    <div class="price1">
+                                        <h3>$14</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Contacts" class="OurContacts">
+                <div class="OurContacts-text">
+                    <div class="OurContacts-text-text1">
+                        <h2>Our Contacts</h2>
+                    </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="OurContacts-info">
+                    <div class="OurContacts-left">
+                        <div class="Contacts-phones">
+                            <div class="Contacts-phones-text1">
+                                <h3>For All Library Inquiries:</h3>
+                            </div>
+                            <div class="Contacts-phones-text2">
+                                <div class="Phones1">
+                                    <h3>Please Call<a class="pointer1" href="tel:6177302370">(617) 730-2370</a></h3>
+                                </div>
+                                <div class="Phones2">
+                                    <h3>
+                                        For TTY Service, Please Call<a href="tel:6177302370">(617) 730-2370</a> 
+                                    </h3>
+                                </div>
+                                <div class="Phones3">
+                                    <h3>
+                                        Putterham Library: <a href="tel:6177302385">(617) 730-2385</a>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="Senior">
+                                <h3>Senior Staff</h3>
+                            </div>
+                            <div class="Director">
+                                <h3>Library Director: <span><a href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></span></h3>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="OurContacts-right">
+                        <div class="Contacts-map">
+                            <img src="img/map.jpg" alt="City-Map">
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section id="Library" class="Digital">
+                <div class="Digital-text">
+                    <h2>Digital Library Cards</h2>
+                </div>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="Digital-block">
+                    <div class="Digital-block-left">
+                        <div class="Card">
+                            <div class="Find">
+                                <h3>Find your Library card</h3>
+                            </div>
+                            <div class="Registration">
+                                <div class="Messages">
+                                    <div class="Messages-text">
+                                        <div class="Brooklyn">
+                                            <h3>Brooklyn Public Library</h3>
+                                        </div>
+                                        <div class="Reader-name">
+                                            <form>
+                                                <input type="text" placeholder="Reader's name">
+                                            </form>
+                                        </div>
+                                        <div class="Card-number">
+                                            <form>
+                                                <input type="text" placeholder="Card number">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Check">
+                                    <div class="Check-button">
+                                        <form>
+                                            <button>Check the card</button>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="Digital-block-right">
+                        <div class="Get-card">
+                            <div class="Get-card-text1">
+                                <h3>Get a reader card</h3>
+                            </div>
+                            <div class="Get-card-text2">
+                                <h4>You will be able to see a reader card after logging into
+                                    account or you can register a new account
+                                </h4>
+                            </div>
+                            <div class="Get-card-buttons">
+                                <form>
+                                    <button class="Button1">Sign Up</button>
+                                </form>
+                                <form>
+                                    <button class="Button2">Log in</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+       </main>
+       <footer class="footer">
+        <div class="footer-part1">
+            <div class="footer-left">
+                <div class="footer-left-text">
+                    <h4>286 Cadman Plaza, New York,
+                        NY 11238, United States
+                    </h4>
+                </div>
+                <div class="footer-left-list">
+                    <ul>
+                        <li><a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B2%D0%B8%D1%82%D1%82%D0%B5%D1%80"><img src="img/twitter.svg" alt="tweeter-icon"></a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Instagram"><img src="img/instagram.svg" alt="instagram-icon"></a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Facebook"><img src="img/facebook.svg" alt="facebook-icon"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-text1">
+                    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Mon - Fri
+                        08:00 am - 07:00 pm
+                    </h4>
+                </div>
+                <div class="footer-right-text2">
+                    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sat - Sun
+                        10:00 am - 06:00 pm
+                    </h4>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-line">
+            <hr>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li><h3>2023</h3></li>
+                <li><h3><a href="https://rs.school/js-stage0/">The Rolling Scopes School</a></h3></li>
+                <li><h3><a href="https://github.com/Nomade1984">Murat</a></h3></li>
+            </ul>
+
+        </div>
+       </footer>
+
+    </div>
+<script src="JavaScript/index.js"></script>
+</body>
+
+</html>
